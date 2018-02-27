@@ -2,6 +2,7 @@
 
 项目中遇见一个场景，`VC`没有`UINavigationController`，但是需要`Push`和`Pop`的动画效果。
 一开始使用了`MZFormSheetPresentationViewController`来实现`Push`效果，但是却没有`Pop`的边缘返回手势。本着求`Github`不如求己的原则，手撸了一个库出来，`WHPopAnimation`。
+
 ![效果图.gif](http://upload-images.jianshu.io/upload_images/2963444-47dd4467cdb3713d.gif?imageMogr2/auto-orient/strip)
 
 
