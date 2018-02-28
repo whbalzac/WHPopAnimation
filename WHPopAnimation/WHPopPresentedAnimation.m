@@ -24,6 +24,8 @@
     [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
         fromVC.view.alpha = 0.5;
         toVC.view.frame = finalFrameForVC;
+        fromVC.view.frame = CGRectOffset(fromVC.view.frame, -110, 0);
+        
     } completion:^(BOOL finished) {
         [transitionContext completeTransition:YES];
     }];

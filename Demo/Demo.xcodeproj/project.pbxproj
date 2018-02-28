@@ -158,13 +158,13 @@
 				60A2950D20458A000027F7AE /* WHPopHeader.h */,
 				60A2950720458A000027F7AE /* WHPopTableViewController.h */,
 				60A2951120458A000027F7AE /* WHPopPresentedAnimation.h */,
+				60A2950B20458A000027F7AE /* WHPopPresentedAnimation.m */,
 				60A2950E20458A000027F7AE /* WHPopViewController.h */,
 				60A2950920458A000027F7AE /* WHPopViewController.m */,
 				60A2950820458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.h */,
 				60A2951020458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.m */,
 				60A2950F20458A000027F7AE /* WHPopDismissAnimation.h */,
 				60A2950A20458A000027F7AE /* WHPopDismissAnimation.m */,
-				60A2950B20458A000027F7AE /* WHPopPresentedAnimation.m */,
 				60A2950C20458A000027F7AE /* WHPopTableViewController.m */,
 			);
 			name = WHPopAnimation;

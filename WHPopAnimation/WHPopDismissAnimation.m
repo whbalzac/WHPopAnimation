@@ -26,6 +26,7 @@
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
         fromVC.view.frame = finalFrame;
         toVC.view.alpha = 1.0;
+        toVC.view.frame = CGRectOffset(toVC.view.frame, 110, 0);
     } completion:^(BOOL finished) {
         BOOL complate = [transitionContext transitionWasCancelled];
         [transitionContext completeTransition:(!complate)];
