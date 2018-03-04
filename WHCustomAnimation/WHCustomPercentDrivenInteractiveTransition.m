@@ -20,7 +20,7 @@
     if (self) {
         _vc = vc;
         _type = type;
-        if (type == kWHCustomAnimationTypePresent) {
+        if (type == kWHCustomAnimationTypePush) {
             UIScreenEdgePanGestureRecognizer *panGesture = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self                           action:@selector(panGestureHander:)];
             panGesture.edges = UIRectEdgeLeft;
             [vc.view addGestureRecognizer:panGesture];
@@ -44,7 +44,7 @@
         }
         case UIGestureRecognizerStateChanged: {
             CGFloat fraction;
-            if (self.type == kWHCustomAnimationTypePresent) {
+            if (self.type == kWHCustomAnimationTypePush) {
                 CGFloat point_x = WHCustomScreenWidth + [gesture locationInView:_vc.view].x;
                 fraction = (point_x / WHCustomScreenWidth);
             }else if (self.type == kWHCustomAnimationTypeZoomPresent) {
@@ -73,3 +73,4 @@
 }
 
 @end
+
