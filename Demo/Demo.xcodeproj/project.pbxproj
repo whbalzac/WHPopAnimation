@@ -16,11 +16,10 @@
 		60A294E4204589A50027F7AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A294E3204589A50027F7AE /* main.m */; };
 		60A294EE204589A50027F7AE /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A294ED204589A50027F7AE /* DemoTests.m */; };
 		60A294F9204589A50027F7AE /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A294F8204589A50027F7AE /* DemoUITests.m */; };
-		60A2951220458A000027F7AE /* WHPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2950920458A000027F7AE /* WHPopViewController.m */; };
-		60A2951320458A000027F7AE /* WHPopDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2950A20458A000027F7AE /* WHPopDismissAnimation.m */; };
-		60A2951420458A000027F7AE /* WHPopPresentedAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2950B20458A000027F7AE /* WHPopPresentedAnimation.m */; };
-		60A2951520458A000027F7AE /* WHPopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2950C20458A000027F7AE /* WHPopTableViewController.m */; };
-		60A2951620458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2951020458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.m */; };
+		60A2951220458A000027F7AE /* WHCustomPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2950920458A000027F7AE /* WHCustomPresentViewController.m */; };
+		60A2951320458A000027F7AE /* WHCustomDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2950A20458A000027F7AE /* WHCustomDismissAnimation.m */; };
+		60A2951420458A000027F7AE /* WHCustomPresentedAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2950B20458A000027F7AE /* WHCustomPresentedAnimation.m */; };
+		60A2951620458A000027F7AE /* WHCustomPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2951020458A000027F7AE /* WHCustomPercentDrivenInteractiveTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,17 +57,15 @@
 		60A294F4204589A50027F7AE /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A294F8204589A50027F7AE /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		60A294FA204589A50027F7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60A2950720458A000027F7AE /* WHPopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPopTableViewController.h; sourceTree = "<group>"; };
-		60A2950820458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPopPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
-		60A2950920458A000027F7AE /* WHPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPopViewController.m; sourceTree = "<group>"; };
-		60A2950A20458A000027F7AE /* WHPopDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPopDismissAnimation.m; sourceTree = "<group>"; };
-		60A2950B20458A000027F7AE /* WHPopPresentedAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPopPresentedAnimation.m; sourceTree = "<group>"; };
-		60A2950C20458A000027F7AE /* WHPopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPopTableViewController.m; sourceTree = "<group>"; };
-		60A2950D20458A000027F7AE /* WHPopHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPopHeader.h; sourceTree = "<group>"; };
-		60A2950E20458A000027F7AE /* WHPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPopViewController.h; sourceTree = "<group>"; };
-		60A2950F20458A000027F7AE /* WHPopDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPopDismissAnimation.h; sourceTree = "<group>"; };
-		60A2951020458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPopPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
-		60A2951120458A000027F7AE /* WHPopPresentedAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPopPresentedAnimation.h; sourceTree = "<group>"; };
+		60A2950820458A000027F7AE /* WHCustomPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCustomPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		60A2950920458A000027F7AE /* WHCustomPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCustomPresentViewController.m; sourceTree = "<group>"; };
+		60A2950A20458A000027F7AE /* WHCustomDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCustomDismissAnimation.m; sourceTree = "<group>"; };
+		60A2950B20458A000027F7AE /* WHCustomPresentedAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCustomPresentedAnimation.m; sourceTree = "<group>"; };
+		60A2950D20458A000027F7AE /* WHCustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCustomHeader.h; sourceTree = "<group>"; };
+		60A2950E20458A000027F7AE /* WHCustomPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCustomPresentViewController.h; sourceTree = "<group>"; };
+		60A2950F20458A000027F7AE /* WHCustomDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCustomDismissAnimation.h; sourceTree = "<group>"; };
+		60A2951020458A000027F7AE /* WHCustomPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCustomPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		60A2951120458A000027F7AE /* WHCustomPresentedAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCustomPresentedAnimation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +116,7 @@
 		60A294D3204589A50027F7AE /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				60A2950620458A000027F7AE /* WHPopAnimation */,
+				60A2950620458A000027F7AE /* WHCustomAnimation */,
 				60A294D4204589A50027F7AE /* AppDelegate.h */,
 				60A294D5204589A50027F7AE /* AppDelegate.m */,
 				607E1A86204594B60030FB6F /* demo.gif */,
@@ -152,23 +149,21 @@
 			path = DemoUITests;
 			sourceTree = "<group>";
 		};
-		60A2950620458A000027F7AE /* WHPopAnimation */ = {
+		60A2950620458A000027F7AE /* WHCustomAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				60A2950D20458A000027F7AE /* WHPopHeader.h */,
-				60A2950720458A000027F7AE /* WHPopTableViewController.h */,
-				60A2951120458A000027F7AE /* WHPopPresentedAnimation.h */,
-				60A2950B20458A000027F7AE /* WHPopPresentedAnimation.m */,
-				60A2950E20458A000027F7AE /* WHPopViewController.h */,
-				60A2950920458A000027F7AE /* WHPopViewController.m */,
-				60A2950820458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.h */,
-				60A2951020458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.m */,
-				60A2950F20458A000027F7AE /* WHPopDismissAnimation.h */,
-				60A2950A20458A000027F7AE /* WHPopDismissAnimation.m */,
-				60A2950C20458A000027F7AE /* WHPopTableViewController.m */,
+				60A2950D20458A000027F7AE /* WHCustomHeader.h */,
+				60A2950E20458A000027F7AE /* WHCustomPresentViewController.h */,
+				60A2950920458A000027F7AE /* WHCustomPresentViewController.m */,
+				60A2951120458A000027F7AE /* WHCustomPresentedAnimation.h */,
+				60A2950B20458A000027F7AE /* WHCustomPresentedAnimation.m */,
+				60A2950F20458A000027F7AE /* WHCustomDismissAnimation.h */,
+				60A2950A20458A000027F7AE /* WHCustomDismissAnimation.m */,
+				60A2950820458A000027F7AE /* WHCustomPercentDrivenInteractiveTransition.h */,
+				60A2951020458A000027F7AE /* WHCustomPercentDrivenInteractiveTransition.m */,
 			);
-			name = WHPopAnimation;
-			path = ../../WHPopAnimation;
+			name = WHCustomAnimation;
+			path = ../../WHCustomAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,12 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60A2951420458A000027F7AE /* WHPopPresentedAnimation.m in Sources */,
-				60A2951320458A000027F7AE /* WHPopDismissAnimation.m in Sources */,
+				60A2951420458A000027F7AE /* WHCustomPresentedAnimation.m in Sources */,
+				60A2951320458A000027F7AE /* WHCustomDismissAnimation.m in Sources */,
 				60A294D9204589A50027F7AE /* ViewController.m in Sources */,
-				60A2951220458A000027F7AE /* WHPopViewController.m in Sources */,
-				60A2951620458A000027F7AE /* WHPopPercentDrivenInteractiveTransition.m in Sources */,
-				60A2951520458A000027F7AE /* WHPopTableViewController.m in Sources */,
+				60A2951220458A000027F7AE /* WHCustomPresentViewController.m in Sources */,
+				60A2951620458A000027F7AE /* WHCustomPercentDrivenInteractiveTransition.m in Sources */,
 				60A294E4204589A50027F7AE /* main.m in Sources */,
 				60A294D6204589A50027F7AE /* AppDelegate.m in Sources */,
 			);

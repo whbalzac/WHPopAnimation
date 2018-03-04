@@ -6,9 +6,9 @@
 //  Copyright © 2018 whbalzac. All rights reserved.
 //
 
-#import "WHPopViewController.h"
+#import "WHCustomPresentViewController.h"
 
-@interface ViewController : WHPopViewController
+@interface ViewController : WHCustomPresentViewController
 
 
 @end

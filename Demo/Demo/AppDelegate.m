@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    self.window.rootViewController = [[ViewController alloc] init];
+    self.window.rootViewController = [[ViewController alloc] initWithType:kWHCustomAnimationTypePush];
     [self.window makeKeyAndVisible];
     
     return YES;

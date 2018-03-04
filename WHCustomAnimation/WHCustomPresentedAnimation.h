@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface WHPopPresentedAnimation : NSObject <UIViewControllerAnimatedTransitioning>
+#import "WHCustomHeader.h"
 
+@interface WHCustomPresentedAnimation : NSObject <UIViewControllerAnimatedTransitioning>
+- (instancetype)initWithType:(kWHCustomAnimationType)type;
 @end

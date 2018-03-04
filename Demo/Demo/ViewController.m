@@ -42,14 +42,28 @@
     button.layer.cornerRadius = 22;
     
     [button addTarget:self action:@selector(presentChirldVC) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton *button1 = [[UIButton alloc] init];
+    button1.frame = CGRectMake(CGRectGetWidth(self.view.frame) - 16 - 44, CGRectGetMaxY(self.view.frame) - 44 - 16, 44, 44);
+    [self.view addSubview:button1];
+    button1.backgroundColor = [UIColor greenColor];
+    button1.layer.masksToBounds = YES;
+    button1.layer.cornerRadius = 22;
+    
+    [button1 addTarget:self action:@selector(dismiss) forControlEvents:UIControlEventTouchUpInside];
 }
 
 
 - (void)presentChirldVC
 {
-    ViewController *vc = [[ViewController alloc] init];
+    ViewController *vc = [[ViewController alloc] initWithType:kWHCustomAnimationTypePush];
     vc.view.backgroundColor = [UIColor orangeColor];
     [self presentViewController:vc animated:YES completion:nil];
+}
+
+- (void)dismiss
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
